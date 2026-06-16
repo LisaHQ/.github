@@ -1,10 +1,11 @@
-# 🪄 LISA
+# 🍃 LISA
 
 > **Local Intelligent System Assistant**
 >
 > A local-first AI ecosystem designed to become a truly intelligent digital caretaker within real-world environments.
 
-# 🤔 The Problem
+
+## 🤔 The Problem
 
 Technology has become incredibly powerful.  
 Yet interacting with it still feels unnatural like machines.
@@ -38,9 +39,7 @@ Unfortunately, most smart-home systems, voice assistants, and AI platforms remai
 
 LISA exists to change that.
 
----
-
-# ✨ What is LISA?
+## 💡 What is LISA?
 
 **LISA (Local Intelligent System Assistant)** is an open, local-first AI ecosystem whose long-term goal is to create a truly natural digital caretaker capable of understanding people, environments, context, and intent.
 
@@ -70,9 +69,7 @@ The ultimate goal is not automation.
 
 The ultimate goal is natural human-computer interaction.
 
----
-
-# 🧿 Vision
+## 🧿 Vision
 
 LISA aims to become an AI-powered household assistant that feels less like software and more like a helpful person.
 
@@ -104,19 +101,15 @@ and LISA understands the context behind the statement.
 
 The long-term objective is to create a system that understands people rather than commands.
 
----
+## 💎 Core Principles
 
-# 💎 Core Principles
-
-## 🏠︎ Local First
+### 🏠︎ Local First
 
 Critical functionality should continue operating even when Internet connectivity is unavailable.
 
 Core intelligence should not depend on cloud providers.
 
----
-
-## ꗃ Privacy First
+### ꗃ Privacy First
 
 Your environment.
 
@@ -128,9 +121,7 @@ Your control.
 
 Sensitive information should remain local whenever practical.
 
----
-
-## 웃 Human First
+### 웃 Human First
 
 Humans should not have to learn how to communicate with machines.
 
@@ -138,9 +129,7 @@ Machines should learn how to communicate with humans.
 
 LISA prioritizes natural interaction over rigid command structures.
 
----
-
-## ୭ Intelligence First
+### ୭ Intelligence First
 
 Automation is a feature.
 
@@ -157,9 +146,7 @@ LISA focuses on:
 
 rather than simple event-driven automation.
 
----
-
-## ⛨ Recovery First
+### ⛨ Recovery First
 
 Reliability is more important than complexity.
 
@@ -171,9 +158,7 @@ Recovery > High Availability > Complexity
 
 Systems should be easy to restore, rebuild, migrate, and maintain.
 
----
-
-## ♛ Vendor Independence
+### ♛ Vendor Independence
 
 LISA should not depend on any specific:
 
@@ -185,9 +170,7 @@ LISA should not depend on any specific:
 
 Every layer should remain replaceable.
 
----
-
-# 💫 What Makes LISA Different?
+## 💫 What Makes LISA Different?
 
 Most smart-home systems focus on devices.
 
@@ -239,9 +222,7 @@ The goal is not automation.
 
 The goal is intelligence.
 
----
-
-# ♻️ Ecosystem Architecture
+## ♻️ Ecosystem Architecture
 
 ```text
                                  LISA
@@ -285,11 +266,9 @@ Keeping responsibilities separate improves:
 * Recoverability
 * Scalability
 
----
+## 🌿 Ecosystem Components
 
-# 🌿 Ecosystem Components
-
-## 🕊️ LISA Edge
+### 🕊️ LISA Edge
 
 The infrastructure foundation.
 
@@ -317,9 +296,7 @@ Examples:
 
 LISA Edge continues operating even when cloud services become unavailable.
 
----
-
-## 💭 LISA Brain
+### 💭 LISA Brain
 
 The intelligence layer.
 
@@ -336,9 +313,7 @@ Responsibilities include:
 
 LISA Brain is where understanding happens.
 
----
-
-## 👁 LISA Vision
+### 👁 LISA Vision
 
 The perception layer.
 
@@ -352,9 +327,7 @@ Responsibilities include:
 
 Vision exists to help LISA understand the world around it.
 
----
-
-## 🗪 LISA Voice
+### 🗪 LISA Voice
 
 The conversational layer.
 
@@ -368,9 +341,7 @@ Responsibilities include:
 
 Voice is how people naturally interact with LISA.
 
----
-
-## 𖦹 LISA Core
+### 𖦹 LISA Core
 
 The shared foundation that connects all ecosystem components together.
 
@@ -383,9 +354,7 @@ Responsibilities may include:
 * Identity systems
 * Common libraries
 
----
-
-# 📜 Design Philosophy
+## 📜 Design Philosophy
 
 LISA is designed around environments rather than devices.
 
@@ -401,9 +370,7 @@ Potential environments include:
 * Multi-site deployments
 * Future robotic systems
 
----
-
-# 🚩 Long-Term Roadmap
+## 🚩 Long-Term Roadmap
 
 The ecosystem is expected to evolve gradually through several stages.
 
@@ -433,9 +400,7 @@ The ecosystem is expected to evolve gradually through several stages.
 * Cross-environment reasoning
 * Natural human-level interaction
 
----
-
-# 🟢 Current Status
+## 🟢 Current Status
 
 LISA is an active long-term project.
 
@@ -451,9 +416,7 @@ The ecosystem is being built incrementally with a strong emphasis on:
 
 The project is intentionally designed to grow over time while remaining modular and maintainable.
 
----
-
-# 🎯 Ultimate Goal
+## 🎯 Ultimate Goal
 
 The ultimate goal of LISA is not to automate a house.
 
@@ -475,9 +438,7 @@ Entirely under the owner's control.
 
 A true **Local Intelligent System Assistant**.
 
----
-
-# ⚜️ LisaHQ
+## ⚜️ LisaHQ
 
 ```text
 LisaHQ/
@@ -489,8 +450,6 @@ LisaHQ/
 ├── lisa-docs
 └── future-projects
 ```
-
----
 
 ## 🔑 License
 
