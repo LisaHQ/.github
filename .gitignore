@@ -1,0 +1,13 @@
+.env
+*.env
+!.env.example
+secrets/*
+!secrets/README.md
+*.key
+*.pem
+*.crt
+*.log
+.DS_Store
+.idea
+XOA
+XOA/*.*

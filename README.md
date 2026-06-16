@@ -1,68 +1,126 @@
-# LISA
+# 🪄 LISA
 
 > **Local Intelligent System Assistant**
 >
-> A privacy-first, local-first AI ecosystem for intelligent environments.
+> A local-first AI ecosystem designed to become a truly intelligent digital caretaker within real-world environments.
+
+# 🤔 The Problem
+
+Technology has become incredibly powerful.  
+Yet interacting with it still feels unnatural like machines.
+
+Today's assistants require users to:
+
+* Remember commands
+* Remember wake words
+* Remember application names
+* Remember automation rules
+* Adapt their behavior to the limitations of the system
+
+Humans do not communicate this way.
+
+When you look at someone and say:
+
+> "Could you turn it down a little?"
+
+they naturally understand:
+
+* what "it" refers to
+* where the sound is coming from
+* who is speaking
+* what level is appropriate
+
+without requiring a predefined command structure.
+
+Technology should work the same way.
+
+Unfortunately, most smart-home systems, voice assistants, and AI platforms remain heavily constrained by commands, apps, automations, and cloud dependencies.
+
+LISA exists to change that.
 
 ---
 
-## What is LISA?
+# ✨ What is LISA?
 
-LISA (**Local Intelligent System Assistant**) is an open AI ecosystem designed to become the intelligent operating layer for smart homes, infrastructure, and future connected environments.
+**LISA (Local Intelligent System Assistant)** is an open, local-first AI ecosystem whose long-term goal is to create a truly natural digital caretaker capable of understanding people, environments, context, and intent.
 
-Unlike traditional assistants that depend heavily on cloud services, LISA prioritizes:
+LISA is not:
 
-* Local autonomy
-* Privacy
-* Reliability
-* Ownership
-* Long-term maintainability
+* A chatbot
+* A voice assistant
+* A home automation platform
+* A collection of scripts
+* A cloud service
 
-LISA is not just a chatbot.
+LISA is an ecosystem designed to become an intelligent presence within an environment.
 
-LISA is not just a voice assistant.
+An assistant capable of:
 
-LISA is not just a home automation platform.
+* Understanding natural speech
+* Understanding context
+* Understanding presence
+* Understanding habits
+* Understanding environments
+* Coordinating devices
+* Learning safely over time
+* Assisting proactively
+* Remaining under the owner's control
 
-LISA is an intelligent system capable of understanding, coordinating, monitoring, and improving the environment around it while remaining under the owner's control.
+The ultimate goal is not automation.
 
----
-
-## Why LISA Exists
-
-Modern smart-home and AI ecosystems are fragmented.
-
-Users often manage:
-
-* Smart-home platforms
-* Voice assistants
-* Cameras
-* Networking equipment
-* Automation engines
-* Cloud AI services
-* Local AI models
-
-Each system operates independently.
-
-LISA exists to unify them.
-
-The goal is to create a single intelligent layer capable of reasoning across an entire environment rather than individual devices.
+The ultimate goal is natural human-computer interaction.
 
 ---
 
-## Core Principles
+# 🧿 Vision
 
-### Local First
+LISA aims to become an AI-powered household assistant that feels less like software and more like a helpful person.
 
-LISA should continue operating even when cloud services become unavailable.
+Imagine being able to say:
 
-Core functionality should not depend on external providers.
+> "It's getting a little dark in here."
+
+and LISA understands that you probably want more light.
+
+Or:
+
+> "Can you make it more comfortable?"
+
+and LISA considers:
+
+* room temperature
+* lighting
+* occupancy
+* time of day
+* personal preferences
+
+before deciding how to help.
+
+Or simply:
+
+> "I'm going to bed."
+
+and LISA understands the context behind the statement.
+
+The long-term objective is to create a system that understands people rather than commands.
 
 ---
 
-### Privacy First
+# 💎 Core Principles
+
+## 🏠︎ Local First
+
+Critical functionality should continue operating even when Internet connectivity is unavailable.
+
+Core intelligence should not depend on cloud providers.
+
+---
+
+## ꗃ Privacy First
 
 Your environment.
+
+Your devices.
 
 Your data.
 
@@ -72,7 +130,17 @@ Sensitive information should remain local whenever practical.
 
 ---
 
-### Intelligence First
+## 🗣 Human First
+
+Humans should not have to learn how to communicate with machines.
+
+Machines should learn how to communicate with humans.
+
+LISA prioritizes natural interaction over rigid command structures.
+
+---
+
+## ⚛ Intelligence First
 
 Automation is a feature.
 
@@ -82,97 +150,176 @@ LISA focuses on:
 
 * Understanding
 * Context
+* Reasoning
 * Planning
 * Coordination
 * Decision support
 
-rather than simple rule execution.
+rather than simple event-driven automation.
 
 ---
 
-### Recovery First
+## ⛨ Recovery First
 
-Complexity should never compromise recoverability.
+Reliability is more important than complexity.
 
-LISA prioritizes:
+LISA follows a simple philosophy:
 
 ```text
 Recovery > High Availability > Complexity
 ```
 
-Systems should be easy to restore, rebuild, and maintain.
+Systems should be easy to restore, rebuild, migrate, and maintain.
 
 ---
 
-### Open Architecture
+## ♛ Vendor Independence
 
-LISA is designed as a collection of modular components.
+LISA should not depend on any specific:
 
-Every layer should remain replaceable and independently deployable.
+* Hardware vendor
+* Smart-home platform
+* Cloud provider
+* AI model
+* Infrastructure vendor
+
+Every layer should remain replaceable.
 
 ---
 
-## Ecosystem Overview
+# 💫 What Makes LISA Different?
+
+Most smart-home systems focus on devices.
+
+LISA focuses on understanding.
+
+Traditional automation:
 
 ```text
-                            LISA
-             Local Intelligent System Assistant
-
-                              │
-      ┌───────────────────────┼───────────────────────┐
-      │                       │                       │
-      ▼                       ▼                       ▼
-
-  LISA Brain            LISA Vision           LISA Voice
-
-      │                       │                       │
-      └───────────────┬───────┴───────┬───────────────┘
-                      │               │
-                      ▼               ▼
-
-                 LISA Core      LISA Integrations
-
-                      │
-                      ▼
-
-                   LISA Edge
-
-                      │
-
-      ┌───────────────┼────────────────────┐
-      │               │                    │
-
-   Matter          Thread               MQTT
-   UniFi           Homey          Home Assistant
+IF Motion Detected
+THEN Turn On Light
 ```
+
+Traditional voice assistants:
+
+```text
+User → Command → Action
+```
+
+LISA:
+
+```text
+Environment
+    ↓
+Context
+    ↓
+Understanding
+    ↓
+Reasoning
+    ↓
+Decision
+    ↓
+Action
+```
+
+The system should eventually combine:
+
+* Voice
+* Vision
+* Presence
+* Context
+* Memory
+* Device State
+* Environmental Data
+* User Preferences
+
+to understand what is happening before deciding what to do.
+
+The goal is not automation.
+
+The goal is intelligence.
 
 ---
 
-## Components
+# ♻️ Ecosystem Architecture
 
-### LISA Edge
+```text
+                                 LISA
 
-Provides the infrastructure foundation of the ecosystem.
+                  Local Intelligent System Assistant
+
+                                   │
+        ┌──────────────────────────┼──────────────────────────┐
+        │                          │                          │
+        ▼                          ▼                          ▼
+
+    LISA Brain                LISA Vision               LISA Voice
+
+        │                          │                          │
+        └───────────────┬──────────┴──────────┬───────────────┘
+                        │                     │
+                        ▼                     ▼
+
+                    LISA Core        LISA Integrations
+
+                        │
+                        ▼
+
+                    LISA Edge
+
+                        │
+      ┌─────────────────┼─────────────────┐
+      │                 │                 │
+
+    Matter           Thread              MQTT
+    Homey             UniFi        Home Assistant
+```
+
+Each layer exists for a specific purpose.
+
+Keeping responsibilities separate improves:
+
+* Reliability
+* Security
+* Maintainability
+* Recoverability
+* Scalability
+
+---
+
+# 🌿 Ecosystem Components
+
+## 🕊️ LISA Edge
+
+The infrastructure foundation.
 
 Responsibilities include:
 
 * Networking
-* Messaging
-* Connectivity
 * Service discovery
+* Connectivity
+* Messaging
 * VPN access
-* Infrastructure services
-* Operational resilience
+* Monitoring
+* Backup automation
+* Recovery tooling
+* Infrastructure resilience
 
-Repository:
+Examples:
 
-```text
-lisa-edge
-```
+* Thread Border Router
+* MQTT
+* DNS
+* NTP
+* Reverse Proxy
+* VPN Services
+* Health Monitoring
+
+LISA Edge continues operating even when cloud services become unavailable.
 
 ---
 
-### LISA Brain
+## 💭 LISA Brain
 
 The intelligence layer.
 
@@ -180,132 +327,157 @@ Responsibilities include:
 
 * Reasoning
 * Planning
-* Memory
 * Context management
+* Memory
+* Agent orchestration
 * Decision making
-* Tool orchestration
+* Tool execution
+* Smart-home coordination
 
-Repository:
-
-```text
-lisa-brain
-```
+LISA Brain is where understanding happens.
 
 ---
 
-### LISA Vision
+## 👁 LISA Vision
 
 The perception layer.
 
 Responsibilities include:
 
-* Camera processing
+* Environment awareness
+* Object recognition
 * Event understanding
-* Object detection
-* Video intelligence
+* Presence detection
+* Context enrichment
 
-Repository:
-
-```text
-lisa-vision
-```
+Vision exists to help LISA understand the world around it.
 
 ---
 
-### LISA Voice
+## 🗪 LISA Voice
 
 The conversational layer.
 
 Responsibilities include:
 
-* Wake words
 * Speech recognition
 * Speech synthesis
-* Natural interaction
+* Natural dialogue
+* Multi-room interaction
+* Contextual communication
 
-Repository:
-
-```text
-lisa-voice
-```
+Voice is how people naturally interact with LISA.
 
 ---
 
-## Design Philosophy
+## 𖦹 LISA Core
+
+The shared foundation that connects all ecosystem components together.
+
+Responsibilities may include:
+
+* Shared APIs
+* Common contracts
+* Event models
+* Security models
+* Identity systems
+* Common libraries
+
+---
+
+# 📜 Design Philosophy
 
 LISA is designed around environments rather than devices.
 
-Instead of controlling individual components, LISA aims to understand and coordinate entire systems.
+The objective is not to control individual switches, sensors, or automations.  
+The objective is to understand an environment and help the people living within it.
 
-Examples include:
+Potential environments include:
 
-* Smart homes
+* Homes
 * Offices
 * Labs
-* Multi-site environments
-* Edge infrastructure
-* Future robotics platforms
-
-The architecture intentionally avoids dependence on any specific:
-
-* Hardware vendor
-* Cloud provider
-* Smart-home platform
-* AI model
+* Workshops
+* Multi-site deployments
+* Future robotic systems
 
 ---
 
-## Infrastructure Philosophy
+# 🚩 Long-Term Roadmap
 
-Preferred technologies include:
+The ecosystem is expected to evolve gradually through several stages.
 
-* Docker Compose
-* Git-managed configuration
-* Infrastructure as Code
-* Portable backups
-* Reproducible deployments
+### Phase 1
 
-LISA favors practical engineering over unnecessary complexity.
+* Smart-home integration
+* Voice interaction
+* Infrastructure foundation
+* Local-first operation
 
----
+### Phase 2
 
-## Current Integrations
+* Long-term memory
+* Context awareness
+* Multi-turn conversation
+* Habit learning
 
-Current and planned integrations include:
+### Phase 3
 
-* Matter
-* Thread
-* MQTT
-* UniFi
-* Home Assistant
-* Homey
-* WireGuard
-* Headscale
-* Netmaker
+* Vision-assisted understanding
+* Presence-aware reasoning
+* Proactive assistance
 
-and future ecosystem integrations.
+### Phase 4
 
----
-
-## Status
-
-LISA is currently under active development.
-
-The ecosystem is evolving toward a modular architecture consisting of independent components that can be deployed separately or together.
+* Multi-modal intelligence
+* Cross-environment reasoning
+* Natural human-level interaction
 
 ---
 
-## Vision
+# 🟢 Current Status
 
-The long-term goal of LISA is simple:
+LISA is an active long-term project.
 
-> Build an intelligent system that understands and improves its environment while remaining private, local, reliable, and entirely under the owner's control.
+The ecosystem is being built incrementally with a strong emphasis on:
+
+* Privacy
+* Local operation
+* Reliability
+* Security
+* Recoverability
+* Hardware independence
+* Long-term ownership
+
+The project is intentionally designed to grow over time while remaining modular and maintainable.
 
 ---
 
-## LisaHQ
+# 🎯 Ultimate Goal
 
-LISA is developed under the **LisaHQ** organization.
+The ultimate goal of LISA is not to automate a house.
+
+The ultimate goal of LISA is to create an AI that feels natural to live with.
+
+An assistant that understands people rather than commands.
+
+An assistant that adapts to humans rather than forcing humans to adapt to technology.
+
+Private.
+
+Local.
+
+Reliable.
+
+Recoverable.
+
+Entirely under the owner's control.
+
+A true **Local Intelligent System Assistant**.
+
+---
+
+# ⚜️ LisaHQ
 
 ```text
 LisaHQ/
@@ -314,11 +486,17 @@ LisaHQ/
 ├── lisa-brain
 ├── lisa-vision
 ├── lisa-voice
-└── lisa-docs
+├── lisa-docs
+└── future-projects
 ```
 
 ---
 
-## License
+## 🔑 License
 
-License information will be published as repositories mature.
+This repository is licensed under **Apache 2.0**.  
+See [LICENSE](LICENSE) for details.
+
+Other LISA ecosystem repositories, services, models, datasets, or future components may use different licenses.
+
+Copyright (c) 2026 **[LisaHQ](https://lisahq.io)**
