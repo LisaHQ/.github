@@ -130,7 +130,7 @@ Sensitive information should remain local whenever practical.
 
 ---
 
-## 🗣 Human First
+## 웃 Human First
 
 Humans should not have to learn how to communicate with machines.
 
@@ -140,7 +140,7 @@ LISA prioritizes natural interaction over rigid command structures.
 
 ---
 
-## ⚛ Intelligence First
+## ୭ Intelligence First
 
 Automation is a feature.
 
@@ -495,7 +495,7 @@ LisaHQ/
 ## 🔑 License
 
 This repository is licensed under **Apache 2.0**.  
-See [LICENSE](LICENSE) for details.
+See [LICENSE](../LICENSE) for details.
 
 Other LISA ecosystem repositories, services, models, datasets, or future components may use different licenses.
 
