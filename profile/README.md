@@ -16,10 +16,12 @@ Traditional Assistant
 ```text
 User: <wake word>
 Assistant: ... (starts listening)
-User: Set living room speaker volume to 35 percent.
-Assistant: Done.
-User: Turn on the living room lights.
-Assistant: Done.
+User: Set the living room speaker volume to 20 percent.
+Assistant: OK, the living room speaker volume is now 35 percent.
+User: <wake word>, turn on the Living Room Sofa Light at 35 percent.
+Assistant: OK, the Living Room Sofa Light turned on at 35 percent.
+User: <wake word>, change the Living Room Sofa Light color to warm white.
+Assistant: OK, the Living Room Sofa Light color changed to warm white.
 ```
 
 LISA
@@ -27,10 +29,13 @@ LISA
 User is reading a book in the living room.
 User: Could you turn the music down a little?
 Lisa: Sure.
-User: It's getting dark in here.
-Lisa: Would you like me to turn on the lights?
+Lisa: I lowered the volume to 20 percent. Is it okay now? 
+User: It's good.
+Lisa: It looks a little dark. Would you like me to turn on the lights?
 User: Yes, but just enough, don't turn them all on.
-Lisa: Okay.
+Lisa: OK, I will turn on the sofa lights at 35 percent with warm white.
+User: That's great, thanks.
+Lisa: You're welcome.
 ```
 
 ## Why LISA Exists
