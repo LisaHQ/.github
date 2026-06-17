@@ -1,4 +1,4 @@
-![LisaHQ Banner](images/banner.png)
+![LisaHQ Banner](https://github.com/LisaHQ/.github/blob/main/images/banner.png)
 # 🍃 LISA - Local Intelligent System Assistant
 > Building an AI that understands people, not commands.
 
