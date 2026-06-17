@@ -1,5 +1,5 @@
+![LisaHQ Banner](images/banner.png)
 # 🍃 LISA - Local Intelligent System Assistant
-![LisaHQ Banner](https://vercel.app)
 > Building an AI that understands people, not commands.
 
 🧠 Reasoning • 👁️ Vision • 🗣️ Voice • 🏠 Smart Home  
