@@ -1,26 +1,53 @@
-# 🍃 LISA
+# 🍃 LISA - Local Intelligent System Assistant
 
-> **Local Intelligent System Assistant**
->
-> A local-first AI ecosystem designed to become a truly intelligent digital caretaker within real-world environments.
+> Building an AI that understands people, not commands.
 
+🧠 Reasoning • 👁️ Vision • 🗣️ Voice • 🏠 Smart Home  
+🔒 Privacy First • ⚡ Local First • ♻️ Recovery First
 
-## 🤔 The Problem
+_🚧 Early Development Project_
 
-Technology has become incredibly powerful.  
-Yet interacting with it still feels unnatural like machines.
+A local-first AI ecosystem designed to become a truly intelligent digital caretaker.  
 
-Today's assistants require users to:
+The goal is not to automate a house.  
+The goal is to create an AI that feels natural to live with.
 
-* Remember commands
-* Remember wake words
-* Remember application names
-* Remember automation rules
-* Adapt their behavior to the limitations of the system
+Traditional Assistant
+```text
+User: <wake word>
+Assistant: ... (starts listening)
+User: Set living room speaker volume to 35 percent.
+Assistant: Done.
+User: Turn on the living room lights.
+Assistant: Done.
+```
+
+LISA
+```text
+User is reading a book in the living room.
+User: Could you turn the music down a little?
+Lisa: Sure.
+User: It's getting dark in here.
+Lisa: Would you like me to turn on the lights?
+User: Yes, but just enough, don't turn them all on.
+Lisa: Okay.
+```
+
+## Why LISA Exists
+
+Today's voice assistants have become incredibly powerful.  
+Yet interacting with them still feels unnatural.
+
+Users must remember:
+
+- commands
+- wake words
+- app names
+- automation rules
 
 Humans do not communicate this way.
 
-When you look at someone and say:
+When you tell someone:
 
 > "Could you turn it down a little?"
 
@@ -33,13 +60,11 @@ they naturally understand:
 
 without requiring a predefined command structure.
 
-Technology should work the same way.
+Technology should work the same way.  
 
-Unfortunately, most smart-home systems, voice assistants, and AI platforms remain heavily constrained by commands, apps, automations, and cloud dependencies.
+LISA exists to close that gap.
 
-LISA exists to change that.
-
-## 💡 What is LISA?
+## What is LISA?
 
 **LISA (Local Intelligent System Assistant)** is an open, local-first AI ecosystem whose long-term goal is to create a truly natural digital caretaker capable of understanding people, environments, context, and intent.
 
@@ -69,17 +94,20 @@ The ultimate goal is not automation.
 
 The ultimate goal is natural human-computer interaction.
 
+---
+
 ## 🧿 Vision
 
 LISA aims to become an AI-powered household assistant that feels less like software and more like a helpful person.
 
-Imagine being able to say:
+Imagine a future where interacting with technology feels as natural as interacting with another person.
 
-> "It's getting a little dark in here."
+- No wake words.
+- No command syntax.
+- No automation rules to remember.
+- Just natural conversation.
 
-and LISA understands that you probably want more light.
-
-Or:
+For example:
 
 > "Can you make it more comfortable?"
 
@@ -100,75 +128,6 @@ Or simply:
 and LISA understands the context behind the statement.
 
 The long-term objective is to create a system that understands people rather than commands.
-
-## 💎 Core Principles
-
-### 🏠︎ Local First
-
-Critical functionality should continue operating even when Internet connectivity is unavailable.
-
-Core intelligence should not depend on cloud providers.
-
-### ꗃ Privacy First
-
-Your environment.
-
-Your devices.
-
-Your data.
-
-Your control.
-
-Sensitive information should remain local whenever practical.
-
-### 웃 Human First
-
-Humans should not have to learn how to communicate with machines.
-
-Machines should learn how to communicate with humans.
-
-LISA prioritizes natural interaction over rigid command structures.
-
-### ୭ Intelligence First
-
-Automation is a feature.
-
-Intelligence is the objective.
-
-LISA focuses on:
-
-* Understanding
-* Context
-* Reasoning
-* Planning
-* Coordination
-* Decision support
-
-rather than simple event-driven automation.
-
-### ⛨ Recovery First
-
-Reliability is more important than complexity.
-
-LISA follows a simple philosophy:
-
-```text
-Recovery > High Availability > Complexity
-```
-
-Systems should be easy to restore, rebuild, migrate, and maintain.
-
-### ♛ Vendor Independence
-
-LISA should not depend on any specific:
-
-* Hardware vendor
-* Smart-home platform
-* Cloud provider
-* AI model
-* Infrastructure vendor
-
-Every layer should remain replaceable.
 
 ## 💫 What Makes LISA Different?
 
@@ -225,35 +184,45 @@ The goal is intelligence.
 ## ♻️ Ecosystem Architecture
 
 ```text
-                                 LISA
+                              LISA
 
-                  Local Intelligent System Assistant
+                Local Intelligent System Assistant
 
-                                   │
-        ┌──────────────────────────┼──────────────────────────┐
-        │                          │                          │
-        ▼                          ▼                          ▼
+                                │
+                                ▼
 
-    LISA Brain                LISA Vision               LISA Voice
+                            LISA Brain
 
-        │                          │                          │
-        └───────────────┬──────────┴──────────┬───────────────┘
-                        │                     │
-                        ▼                     ▼
+                                │
+          ┌─────────────────────┼─────────────────────┐
+          │                     │                     │
 
-                    LISA Core        LISA Integrations
+          ▼                     ▼                     ▼
 
-                        │
-                        ▼
+     LISA Vision           LISA Voice            Smart Home
 
-                    LISA Edge
+      Perception          Conversation          Integrations
 
-                        │
-      ┌─────────────────┼─────────────────┐
-      │                 │                 │
+          │                     │                     │
+          └─────────────────────┴─────────────────────┘
 
-    Matter           Thread              MQTT
-    Homey             UniFi        Home Assistant
+                                │
+                                ▼
+
+                            LISA Core
+
+                      Shared Platform Layer
+
+                                │
+                                ▼
+
+                            LISA Edge
+
+                     Connectivity & Services
+
+                                │
+
+           Matter • Thread • MQTT • Homey • Home Assistant
 ```
 
 Each layer exists for a specific purpose.
@@ -341,7 +310,7 @@ Responsibilities include:
 
 Voice is how people naturally interact with LISA.
 
-### 𖦹 LISA Core
+### ⚙️ LISA Core
 
 The shared foundation that connects all ecosystem components together.
 
@@ -354,7 +323,76 @@ Responsibilities may include:
 * Identity systems
 * Common libraries
 
-## 📜 Design Philosophy
+## 💎 Core Principles
+
+### ✦ Local First
+
+Critical functionality should continue operating even when Internet connectivity is unavailable.
+
+Core intelligence should not depend on cloud providers.
+
+### ✦ Privacy First
+
+Your environment.
+
+Your devices.
+
+Your data.
+
+Your control.
+
+Sensitive information should remain local whenever practical.
+
+### ✦ Human First
+
+Humans should not have to learn how to communicate with machines.
+
+Machines should learn how to communicate with humans.
+
+LISA prioritizes natural interaction over rigid command structures.
+
+### ✦ Intelligence First
+
+Automation is a feature.
+
+Intelligence is the objective.
+
+LISA focuses on:
+
+* Understanding
+* Context
+* Reasoning
+* Planning
+* Coordination
+* Decision support
+
+rather than simple event-driven automation.
+
+### ✦ Recovery First
+
+Reliability is more important than complexity.
+
+LISA follows a simple philosophy:
+
+```text
+Recovery > High Availability > Complexity
+```
+
+Systems should be easy to restore, rebuild, migrate, and maintain.
+
+### ✦ Vendor Independence
+
+LISA should not depend on any specific:
+
+* Hardware vendor
+* Smart-home platform
+* Cloud provider
+* AI model
+* Infrastructure vendor
+
+Every layer should remain replaceable.
+
+## 🪶 Design Philosophy
 
 LISA is designed around environments rather than devices.
 
@@ -374,27 +412,27 @@ Potential environments include:
 
 The ecosystem is expected to evolve gradually through several stages.
 
-### Phase 1
+### ➤️ Phase 1
 
 * Smart-home integration
 * Voice interaction
 * Infrastructure foundation
 * Local-first operation
 
-### Phase 2
+### ➤ Phase 2
 
 * Long-term memory
 * Context awareness
 * Multi-turn conversation
 * Habit learning
 
-### Phase 3
+### ➤ Phase 3
 
 * Vision-assisted understanding
 * Presence-aware reasoning
 * Proactive assistance
 
-### Phase 4
+### ➤ Phase 4
 
 * Multi-modal intelligence
 * Cross-environment reasoning
@@ -438,7 +476,7 @@ Entirely under the owner's control.
 
 A true **Local Intelligent System Assistant**.
 
-## ⚜️ LisaHQ
+## 🌿 LisaHQ
 
 ```text
 LisaHQ/
@@ -450,6 +488,10 @@ LisaHQ/
 ├── lisa-docs
 └── future-projects
 ```
+
+> 🚧 Early Development Project
+>
+> LISA is a long-term research and engineering effort. Most components are still under active development.
 
 ## 🔑 License
 
