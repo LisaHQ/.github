@@ -1,5 +1,5 @@
 # 🍃 LISA - Local Intelligent System Assistant
-
+![LisaHQ Banner](https://vercel.app)
 > Building an AI that understands people, not commands.
 
 🧠 Reasoning • 👁️ Vision • 🗣️ Voice • 🏠 Smart Home  
@@ -445,7 +445,9 @@ The ecosystem is expected to evolve gradually through several stages.
 
 ## 🟢 Current Status
 
-LISA is an active long-term project.
+> 🚧 Early Development Project
+>
+> LISA is a long-term research and engineering effort. Most components are still under active development.
 
 The ecosystem is being built incrementally with a strong emphasis on:
 
@@ -483,20 +485,14 @@ A true **Local Intelligent System Assistant**.
 
 ## 🌿 LisaHQ
 
-```text
-LisaHQ/
-├── lisa-core
-├── lisa-edge
-├── lisa-brain
-├── lisa-vision
-├── lisa-voice
-├── lisa-docs
-└── future-projects
-```
-
-> 🚧 Early Development Project
->
-> LISA is a long-term research and engineering effort. Most components are still under active development.
+LisaHQ/  
+├── [lisa-edge](https://github.com/LisaHQ/lisa-edge)  
+├── lisa-core  
+├── lisa-brain  
+├── lisa-vision  
+├── lisa-voice  
+├── lisa-docs  
+└── future-projects  
 
 ## 🔑 License
 
@@ -504,5 +500,11 @@ This repository is licensed under **Apache 2.0**.
 See [LICENSE](../LICENSE) for details.
 
 Other LISA ecosystem repositories, services, models, datasets, or future components may use different licenses.
+
+**Trademark Notice**
+
+- LISA, LisaHQ, and all associated names, logos, icons, visual identities, and branding assets are the property of LisaHQ.  
+- The Apache 2.0 license applies only to the source code and documentation contained in this repository.  
+- Use of the LISA name, LisaHQ name, logos, branding, or visual identity in derivative projects, products, services, distributions, or commercial offerings is not granted by the Apache 2.0 license and may require explicit permission from LisaHQ.
 
 Copyright (c) 2026 **[LisaHQ](https://lisahq.io)**
