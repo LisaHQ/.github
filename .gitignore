@@ -9,5 +9,4 @@ secrets/*
 *.log
 .DS_Store
 .idea
-XOA
-XOA/*.*
+archived/*
