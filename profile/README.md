@@ -111,7 +111,7 @@ LISA is not built on top of Homey, Home Assistant, or any other smart home platf
 - **Several ecosystems can be used at the same time.** One home can combine more than one, and LISA treats them as a single environment.
 - **Every bridge is replaceable.** Swapping or removing an ecosystem must not require changing LISA itself.
 
-The reference setup used during development is a Homey Pro 2023, with Home Assistant covering the devices Homey does not support. That is simply what the author's home runs. It is an example, not a requirement: another home may run Home Assistant only, or something else entirely.
+The reference setup used during development is a Homey Pro, with Home Assistant covering the devices Homey does not support. That is simply what the author's home runs. It is an example, not a requirement: another home may run Home Assistant only, or something else entirely.
 
 ## 🟢 Status
 
@@ -137,8 +137,8 @@ Tools built alongside LISA:
 
 The new LISA Edge is not published yet. Until it is, the best way in is the archived first version:
 
-- Read the [ecosystem architecture](https://github.com/LisaHQ/lisa-edge-v1/blob/main/docs/architecture/01-lisa-ecosystem.md).
-- To try it on a machine, follow the [fresh install steps](https://github.com/LisaHQ/lisa-edge-v1#fastest-fresh-install). Note that this version is no longer maintained.
+- Read the [ecosystem architecture](https://github.com/LisaHQ/lisa-edge-v0-archived/blob/main/docs/architecture/01-lisa-ecosystem.md).
+- To try it on a machine, follow the [fresh install steps](https://github.com/LisaHQ/lisa-edge-v0-archived#fastest-fresh-install). Note that this version is no longer maintained.
 
 ## 💎 Core principles
 

@@ -112,7 +112,7 @@ LISA không được xây trên Homey, Home Assistant hay bất kỳ nền tản
 - **Dùng được nhiều hệ sinh thái cùng lúc.** Một ngôi nhà có thể kết hợp nhiều hệ sinh thái, và LISA xem chúng như một môi trường duy nhất.
 - **Cầu nối nào cũng thay được.** Đổi hoặc bỏ một hệ sinh thái không được buộc phải sửa chính LISA.
 
-Cấu hình tham chiếu trong quá trình phát triển là Homey Pro 2023, kèm Home Assistant cho những thiết bị Homey chưa hỗ trợ. Đó đơn giản là những gì nhà của tác giả đang dùng. Đây là ví dụ, không phải yêu cầu: nhà khác có thể chỉ dùng Home Assistant, hoặc một thứ hoàn toàn khác.
+Cấu hình tham chiếu trong quá trình phát triển là Homey Pro, kèm Home Assistant cho những thiết bị Homey chưa hỗ trợ. Đó đơn giản là những gì nhà của tác giả đang dùng. Đây là ví dụ, không phải yêu cầu: nhà khác có thể chỉ dùng Home Assistant, hoặc một thứ hoàn toàn khác.
 
 ## 🟢 Tình trạng
 
@@ -138,8 +138,8 @@ Các công cụ được xây cùng LISA:
 
 LISA Edge bản mới chưa được công bố. Trong lúc chờ, cách tốt nhất để tìm hiểu là phiên bản đầu tiên đã lưu trữ:
 
-- Đọc [kiến trúc hệ sinh thái](https://github.com/LisaHQ/lisa-edge-v1/blob/main/docs/architecture/01-lisa-ecosystem.md).
-- Muốn chạy thử trên máy, làm theo [các bước cài mới](https://github.com/LisaHQ/lisa-edge-v1#fastest-fresh-install). Lưu ý phiên bản này không còn được bảo trì.
+- Đọc [kiến trúc hệ sinh thái](https://github.com/LisaHQ/lisa-edge-v0-archived/blob/main/docs/architecture/01-lisa-ecosystem.md).
+- Muốn chạy thử trên máy, làm theo [các bước cài mới](https://github.com/LisaHQ/lisa-edge-v0-archived#fastest-fresh-install). Lưu ý phiên bản này không còn được bảo trì.
 
 ## 💎 Nguyên tắc cốt lõi
 
