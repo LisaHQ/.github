@@ -102,14 +102,6 @@ LISA:                     Environment → Context → Understanding → Reasonin
 
 LISA Core is the band at the bottom, not a step in the flow: it is the set of contracts the other components share, so that each one can be replaced on its own.
 
-| Component | Role |
-| --- | --- |
-| 🧠 **LISA Brain** | The brain: context understanding, reasoning, planning, long-term memory, and decision making. |
-| 👁️ **LISA Vision** | Perceives environments, objects, events, and presence to enrich context. |
-| 🗣️ **LISA Voice** | Speech recognition and synthesis, natural dialogue, multi-room interaction. |
-| ⚙️ **LISA Core** | The shared platform: APIs, data contracts, event models, security, identity. |
-| 📡 **LISA Edge** | The lightweight local infrastructure layer: connectivity, MQTT, Thread/Matter, monitoring, secure remote access, backup, and recovery. |
-
 ### 🏠 Smart home: not tied to any ecosystem
 
 LISA is not built on top of Homey, Home Assistant, or any other smart home platform.

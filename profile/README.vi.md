@@ -103,14 +103,6 @@ LISA:                        Môi trường → Ngữ cảnh → Hiểu → Suy 
 
 LISA Core là dải ở dưới cùng, không phải một bước trong luồng: đó là bộ hợp đồng mà các thành phần khác dùng chung, để mỗi thành phần có thể được thay thế riêng.
 
-| Thành phần | Vai trò |
-| --- | --- |
-| 🧠 **LISA Brain** | Bộ não: hiểu ngữ cảnh, suy luận, lập kế hoạch, trí nhớ dài hạn và ra quyết định. |
-| 👁️ **LISA Vision** | Nhận biết môi trường, vật thể, sự kiện và sự hiện diện để làm giàu ngữ cảnh. |
-| 🗣️ **LISA Voice** | Nhận dạng và tổng hợp giọng nói, hội thoại tự nhiên, tương tác nhiều phòng. |
-| ⚙️ **LISA Core** | Nền tảng dùng chung: API, hợp đồng dữ liệu, mô hình sự kiện, bảo mật, danh tính. |
-| 📡 **LISA Edge** | Lớp hạ tầng cục bộ gọn nhẹ: kết nối, MQTT, Thread/Matter, giám sát, truy cập từ xa an toàn, sao lưu và khôi phục. |
-
 ### 🏠 Nhà thông minh: không gắn với hệ sinh thái nào
 
 LISA không được xây trên Homey, Home Assistant hay bất kỳ nền tảng nhà thông minh nào khác.
